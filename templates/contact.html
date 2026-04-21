@@ -1,0 +1,70 @@
+<!-- Feuille de style pour le rendu direct ou via routeur -->
+<link rel="stylesheet" href="scripts/style.css">
+
+<section id="contact" class="scroll-content">
+    <div class="contact-container">
+        <h1 class="hero-title" style="margin-bottom: 0.5rem;">Contact</h1>
+        <p class="hero-desc">
+            [Message d'accroche invitant les visiteurs à vous contacter. Exemple : "N'hésitez pas à me contacter pour toute opportunité de collaboration ou pour échanger."]
+        </p>
+
+        <div class="contact-content">
+            <!-- Informations de contact -->
+            <div class="contact-info-box">
+                <h2>Mes Coordonnées</h2>
+
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <p class="label">Adresse</p>
+                        <p>[Votre Ville, PAYS]</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <p class="label">Téléphone</p>
+                        <a href="tel:+00000000000">[VOTRE NUMERO]</a>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <p class="label">Email</p>
+                        <a href="mailto:votre.email@email.com">[VOTRE EMAIL]</a>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <p class="label">Disponibilité</p>
+                        <p>[Ex: Lundi - Vendredi : 09h00 - 18h00]</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulaire de contact -->
+            <div class="contact-form-box">
+                <h2>Envoyez un message</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Votre Nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Votre Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

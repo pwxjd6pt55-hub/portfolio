@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[VOTRE NOM]</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&family=Playfair+Display:ital@1&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="styles/img.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="scripts/style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#maison" class="brand-name">[VOTRE NOM COMPLET]</a>
+        <nav>
+            <ul>
+                <li><a href="#maison" class="active">Home</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#portefeuille">Portefeuille</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact-fixe">
+        <a href="mailto:votre.email@email.com">E: [VOTRE EMAIL]</a>
+        <a href="tel:+00000000000">Tél. : [VOTRE NUMERO]</a>
+    </div>
+
+    <main id="app-content" class="page-scroll">
+        <div class="home-hero fade-in">
+            <div class="hero-visual">
+                <div class="image-cutout">
+                    <!-- Remplacez l'URL src par le chemin de votre propre photo -->
+                    <img src="styles/profil.jpeg" alt="[VOTRE NOM]">
+                </div>
+            </div>
+            <div class="hero-content">
+                <p class="greeting">Bonjour, je suis</p>
+                <h1 class="hero-name">[VOTRE PRENOM] <span class="accent">[VOTRE NOM]</span></h1>
+                <h2 class="hero-title">[Votre Poste/Intitulé] <span class="accent">[Votre Domaine]</span></h2>
+                <p class="hero-desc">[Votre Poste Actuel ou Recherché] <br> [Votre Ville, Pays] <br> [Votre Numéro] <br>
+                    [Votre Email]</p>
+                <div class="about-preview">
+                    <p>[Une ou deux phrases résumant votre objectif principal, vos valeurs ou votre cœur de métier.]</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Curseur personnalisé -->
+    <div class="cursor"></div>
+
+    <script src="scripts/router.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

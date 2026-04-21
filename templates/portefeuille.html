@@ -1,0 +1,92 @@
+<!-- Feuille de style pour le rendu direct ou via routeur -->
+<link rel="stylesheet" href="scripts/style.css">
+
+<section id="portefeuille" class="scroll-content">
+    <div class="portfolio-container">
+        <h1 class="hero-title" style="margin-bottom: 0.5rem;">[Titre de la section (ex: Mes Réalisations)]</h1>
+        <p class="hero-desc" style="margin-bottom: 3rem;">
+            [Une courte phrase pour introduire vos projets et ce que vous avez accompli.]
+        </p>
+
+        <div class="projects-grid">
+            <!-- Projet 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <!-- Placeholder de l'image du projet -->
+                    <img src="https://placehold.co/600x400/1B2631/C5A059?text=Image+Projet+1" alt="Image Projet 1">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>[Titre du Projet 1]</h3>
+                    </div>
+                    <div class="tech-stack">[Domaine du projet / Outils utilisés]</div>
+                    <p class="project-description">
+                        [Description courte du projet : Quel était l'objectif et ce que vous avez réalisé.]
+                    </p>
+                    <div class="project-links">
+                        <a href="#" data-modal-target="modal-projet-1"><i class="fas fa-search-plus"></i> Détails</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 2 (Dupliquer le bloc pour ajouter plus de projets) -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://placehold.co/600x400/F5F5F5/1B2631?text=Image+Projet+2" alt="Image Projet 2">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>[Titre du Projet 2]</h3>
+                    </div>
+                    <div class="tech-stack">[Technologies ou Domaine]</div>
+                    <p class="project-description">
+                        [Un résumé des défis et des succès obtenus lors de la réalisation de ce projet.]
+                    </p>
+                    <div class="project-links">
+                        <a href="#" data-modal-target="modal-projet-2"><i class="fas fa-search-plus"></i> Détails</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modales (Cachées par défaut) -->
+
+<!-- Modale 1 : Projet 1 -->
+<div id="modal-projet-1" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>[Titre du Projet 1]</h2>
+        <div class="modal-section">
+            <h3>Actions menées</h3>
+            <ul>
+                <li><strong>[Action 1] :</strong> [Détail de ce qui a été fait].</li>
+                <li><strong>[Action 2] :</strong> [Autre détail technique ou organisationnel].</li>
+            </ul>
+        </div>
+        <div class="modal-section">
+            <h3>Résultats obtenus</h3>
+            <p>[Expliquez ici quel a été l'impact positif du projet, les chiffres de succès si existants.]</p>
+        </div>
+    </div>
+</div>
+
+<!-- Modale 2 : Projet 2 -->
+<div id="modal-projet-2" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>[Titre du Projet 2]</h2>
+        <div class="modal-section">
+            <h3>Contexte et Actions</h3>
+            <ul>
+                <li><strong>[Étape 1] :</strong> [Description].</li>
+                <li><strong>[Étape 2] :</strong> [Description].</li>
+            </ul>
+        </div>
+        <div class="modal-section">
+            <h3>Bilan</h3>
+            <p>[Conclusion du projet].</p>
+        </div>
+    </div>
+</div>
